@@ -1,0 +1,19 @@
+		.DATA
+	A:.WORD 10,20,30,40,50
+	B:.WORD 0
+
+		.TEXT
+	LDR R8,=A
+	LDR R9,=B
+	MOV R3,#0
+	MOV R4,#5
+
+LOOP:	LDR R1,[R8],#4
+	ADD R3,R3,R1
+	SUB R4,R4,#1
+	CMP R4,#0
+	BNE LOOP
+
+	STR R3,[R9]
+
+		.END
