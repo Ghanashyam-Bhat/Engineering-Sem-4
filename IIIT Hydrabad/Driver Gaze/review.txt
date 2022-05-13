@@ -1,0 +1,21 @@
+Concept :
+Detection of point of focus and object of focus using DGAZE dataset
+
+Dataset:
+The dataset coontains pair of images, one of the road in which object of focus is annotated and the second image is of the driver who was asked to focus on the annotated object in lab environment.
+
+i-DAGAZE:
+i-Dagaze is trained to locate point of focus which can be used to mesure fatigue,to draw heat map etc
+Object detection can be added to realize if the driver has noticed the object(sign, vehicle, pedestrian etc)
+
+-Face orientation and left eye gaze is used for tracking
+-Using both eyes for gaze detction did not show any increase in accuracy. This is because movement of pupil of both eyes are corelated.
+
+My idea:
+-Adding human emotion detection to avoid accidents
+ If the driver is angry/sad and tries to drive at higher speed, there is high possibility of him being inattentative.
+ 
+-Instead of assuming that driver has noticed single object, it is better to assume that driver has clearly noticed objects in a range of area and had a blurred vision of further bigger range( like concentric circles)
+
+-Using deep learning to varify if the driver is following the traffic signals and signalboards
+

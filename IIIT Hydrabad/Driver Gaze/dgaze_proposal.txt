@@ -1,0 +1,28 @@
+Driver Gaze Mapping on the Road
+
+Analyzing and mapping the driver's gaze will play a very significant role in the future when autonomous cars dominate road transport along with present manual driving.
+Regardless of whether or not the driver is driving in the case of an autonomous vehicle, the driver still needs to pay attention to the road.
+I-DGAZE and the DGAZE dataset significantly reduce the cost of the hardware needed, enabling users to use it with just a camera and a trained model, allowing it to be used by the general public.
+
+Having read research papers on driver gaze mapping, below are some ideas that can be used for expanding the scope of the research work and future activities:
+
+1. Mapping for the cluster of obstacles instead of a single point or single object of observation.
+In the research which has already been done, the mapping is being done for a single object assuming that the driver is observing a single object at a time. In reality, this is not the case. The human eye can cover a certain range of space, not just a point.
+Along with a clear vision of a certain range, the driver will have a blurred vision of a wider range.
+As a result, this factor plays a prominent role in the prevention of raising a false alarm.
+All the objects within the range should be marked as 'observed'. 
+
+2. Verifying whether the driver follows road rules.
+I-DGAZE verifies if the driver has observed the road signs and signals. Along with that, a deep learning model can be implemented that verifies if the driver is following the road rules and generates a warning if not.
+The captured image of the signboard can be analyzed by five different methods: color-based methods, shape-based methods, color and shape-based methods, machine learning methods, and LIDAR-based methods. Since we are just using a camera for detection and not LIDAR, we can employ one of the first four methods mentioned above for evaluating the signboard. Traffic signals can be easily analyzed using color-based methods. 
+
+3. Detection of the emotional state of the driver
+A model be can be developed to detect the emotional state of the driver using the images/video captured by the camera.
+The emotional state plays a very prominent role in human actions. 
+If the emotion (happy/sad/angry etc) level of the driver is above the threshold, there is a high chance of the driver being inattentive. Furthermore, few emotions will influence the driver's ability to make decisions. So, by detecting the emotion and analyzing the vehicle's movement, a warning should be issued if anything goes wrong.
+There are eight universal facial expressions which include: neutral, happy, sadness, anger, contempt, disgust, fear, and surprise. If the driver is expressing either of them except neutral, it means there are high chances of him being inattentive. 
+By using computer vision and neural networks, facial expressions and emotions can be identified.
+The image/video captured by the camera is fed into the image classification algorithm and then the image is recognized. All the redundant data is removed via feature extraction. The machine uses corner detection to detect the features and infer the contents of the image.
+
+4. Checking driver's attention
+Using the image/video captured of the driver, an algorithm must be implemented to warn if the driver is not observing the mirror or gazing at the same point for a long time(might be thinking of something and inattentive to the road) or closed his eyes for more time than the time required for blinking.
