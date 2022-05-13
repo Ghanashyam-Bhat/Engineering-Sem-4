@@ -1,0 +1,42 @@
+Paper
+http://www.ijetsr.com/images/short_pdf/1520496606_155-161-ieteh128_ijetsr.pdf
+
+RF Transmission and Receiving
+https://www.instructables.com/Connecting-RF-Transmitter-and-Receiver-to-Arduino/
+
+https://circuitdigest.com/electronic-circuits/rf-transmitter-and-receiver-circuit-diagram
+
+https://microcontrollerslab.com/433mhz-rf-receiver-module-pinout-applications-arduino-examples/
+
+Gyro accelerometer
+https://www.electronicwings.com/sensors-modules/mpu6050-gyroscope-accelerometer-temperature-sensor-module
+
+https://create.arduino.cc/projecthub/Nicholas_N/how-to-use-the-accelerometer-gyroscope-gy-521-6dfc19
+
+https://stackoverflow.com/questions/42022000/which-pins-should-i-take-for-i2c-on-arduino-uno
+
+Aurdino Pin configuration
+https://robu.in/arduino-pin-configuration/#:~:text=Resets%20the%20microcontroller.-,Analog%20Pins%3A%20The%20pins%20A0%20to%20A5%20are%20used%20as,a%20computer%20or%20other%20devices.
+
+Motor Driver
+https://www.google.com/search?q=motor+driver+connection+with+arduino&sxsrf=APq-WBvt0a_V7ZUgCc_F1Qb7QOzUJ2Uv2A:1649838927082&tbm=isch&source=iu&ictx=1&vet=1&fir=RJBvyggp6R7LbM%252CfMsPCALZuBHICM%252C_%253B6SFv90HNG0jdUM%252C35dyTXycD3rfPM%252C_%253BzILF70RiHfBR_M%252CfMsPCALZuBHICM%252C_%253BamSjhmDecyHbHM%252CmO2p2cE3hBV1FM%252C_%253BduEtJVR-SclHcM%252CRwmd2EHGT37VaM%252C_%253Btu9in8UyiT2ZfM%252CATkYaf5rMtLU6M%252C_%253BdygHW6zAgQpcuM%252CmO2p2cE3hBV1FM%252C_%253Bkx0lZhsGh8cruM%252CMtn7tqPZ28iwfM%252C_%253BWGkMNtp_EmOdQM%252CfX2kMIFaUVQIQM%252C_%253B6l7YFWDx6j-5hM%252C35dyTXycD3rfPM%252C_%253Br50wLCYu_w5HkM%252CIcjwoj0TkQd8fM%252C_%253Bj8uZ-7VOPtOcrM%252C35dyTXycD3rfPM%252C_%253B7VUn7JO6xieeJM%252CCYxNDc3TndgViM%252C_&usg=AI4_-kTdROjmAFyaxA3le0sUPnmqgtoAjw&sa=X&ved=2ahUKEwjysr350JD3AhVAR2wGHe6yDv4Q9QF6BAgCEAE#imgrc=RJBvyggp6R7LbM
+
+https://create.arduino.cc/projecthub/ryanchan/how-to-use-the-l298n-motor-driver-b124c5
+
+Bluetooth Module
+https://create.arduino.cc/projecthub/akshayjoseph666/interfacing-bluetooth-module-hc-05-with-arduino-uno-f5209b
+
+Force sensor
+https://arduinogetstarted.com/tutorials/arduino-force-sensor
+
+Camera
+https://www.youtube.com/watch?v=R94WZH8XAvM&ab_channel=Indrek
+
+Servo  motor
+https://create.arduino.cc/projecthub/ryujenny3/servo-motor-ultrasonic-sensor-f951fe
+
+-------------------------------------------------------------
+Jupyter Lab Installation
+
+https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html
+https://www.how2shout.com/linux/install-anaconda-on-ubuntu-20-04-lts-linux/
